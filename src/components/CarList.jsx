@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import ConfirmDeleteModal from './ConfirmDeleteModal';
 
-const apiUrl = 'https://json-server-delta-nine.vercel.app/cars';
+const apiUrl = 'http://localhost:4000/cars';
 
 function CarList() {
   const [cars, setCars] = useState([]);

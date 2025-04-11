@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const apiUrl = 'https://json-server-delta-nine.vercel.app/cars';
+const apiUrl = 'http://localhost:4000/cars';
 
 function EditCar() {
   const { id } = useParams();
