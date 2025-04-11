@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const apiUrl = 'http://localhost:4000/cars';
+const apiUrl = 'http://localhost:3000/cars';
 
 function AddCar() {
   const [newCar, setNewCar] = useState({ model: '', brand: '', year: '' });
